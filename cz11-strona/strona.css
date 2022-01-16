@@ -1,0 +1,147 @@
+body
+{
+    padding: 0px;
+    margin: 0px;
+    background-image: url('tlo2.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    color: black;
+}
+
+a
+{
+    color: teal;
+    text-decoration: none;
+    border-bottom: 1px dotted gray;
+}
+
+a:hover
+{
+    color: rgb(0, 99, 99);
+}
+
+#container
+{
+    width: 1004px;
+    margin: 0 auto;
+}
+
+#gorna-czesc-kontenera
+{
+    position: relative;
+    background-color: silver;
+    width: 944;
+    height: 123;   
+    margin: 10px;
+}
+
+img.logo
+{
+    position: absolute;
+    border: 0;
+    left: 20px;
+    top: 14px;
+    height: 80px;
+    width: 74px;
+}
+
+#kontakt-box table
+{
+    position: absolute;
+    right: 40px;
+    top: 10px;
+    font-size: 12px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+
+#kontakt-box a
+{
+    border-bottom: none;
+}
+
+/* MENU GÓRNE*/
+#gorne-menu
+{
+    position: absolute;
+    left: 60px;
+    bottom: -10px;
+}
+
+#wlasciwe-gorne-menu li
+{
+    list-style-type: none;
+    float: left;
+}
+
+#wlasciwe-gorne-menu li a
+{
+    background-color: rgb(218, 218, 218);
+    height: 31px;
+    display: block;
+    float: left;
+    border-bottom: none;
+    padding: 6px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    color: black;
+}
+
+span.link
+{
+    display: inline-block;
+    margin-top: 10px;
+}
+#wlasciwe-gorne-menu li a:hover
+{
+    background-color: rgb(161, 161, 161);
+
+}
+
+/*ŚRODKOWE MENU*/
+#srodkowe-menu
+{
+    background-color: silver;
+    width: 944px;
+    height: 32px;
+}
+
+#srodkowe-menu li
+{
+    list-style-type: none;
+    float: left;
+}
+
+#srodkowe-menu li a
+{
+    border-bottom-style: none;
+    color: black;
+    font-size: 12px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+#srodkowe-menu span.link2
+{
+    display: block;
+    margin-top: 5px;
+}
+
+#srodkowe-menu #pierwszy-poziom
+{
+    margin-left: 80px;
+}
+
+#srodkowe-menu span.odstep
+{
+    display: inline-block;
+    margin: 13px;
+}
+
+
+
+
+
+
+
