@@ -1,1 +1,1 @@
-To jest moj test 
+To jest moj przykladowy test 
